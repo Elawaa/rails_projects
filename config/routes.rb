@@ -18,18 +18,8 @@ Rails.application.routes.draw do
   root 'welcome#home'             #that is mean the home page    #بقله خد بالك ان الصفحه الاساسيه بتاعتي اللي هيا الروووووت موجوده في الفولدر ويلكوم واسمها  هوووم 
   get 'hi' , to: 'welcome#hi'                                    # بقله خد بالك ان اللينك (سلااش هاي) هيوديك علي البيدج اللي في الفولدر ويلكوم واسمها هااااااي 
   
-  
-
+  resources :articles 
  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
